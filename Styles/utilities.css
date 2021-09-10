@@ -1,0 +1,70 @@
+.u-H5-margin-0{
+    margin: 0px;
+}
+
+.u-H5-margin-left-4{
+    margin-left: 4px;
+}
+
+.u-H5-margin-sides-20{
+    margin-left: 20px;
+    margin-right: 24px;
+}
+
+.u-H5-margin-left-24{
+    margin-left: 24px;
+}
+
+.u-H5-disp-flex{
+    display: flex;
+}
+
+.u-H5-align-center{
+    align-items: center;
+}
+
+.u-H5-flex-col{
+    flex-direction: column;
+}
+
+.u-H5-align-left{
+    align-self: flex-start;
+}
+
+.u-H5-radius-1{
+    border-radius: 1px;
+}
+.u-H5-radius-5{
+    border-radius: 5px;
+}
+
+.u-H5-radius-8{
+    border-radius: 8px;
+}
+
+.u-H5-radius-10{
+    border-radius: 10px;
+}
+
+.u-H5-radius-20{
+    border-radius: 20px;
+}
+
+.u-H5-radius-50{
+    border-radius: 50%;
+}
+
+
+.u-H5-radius-10-right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.u-H5-circle{
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.u-H5-min-width-30{
+    min-width: 30px;
+}

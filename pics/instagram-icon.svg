@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18339" data-name="Rectangle 18339" width="16" height="16" transform="translate(752 1028)" fill="#8a8f93" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.372" cy="1.001" r="1.247" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd5"/>
+      <stop offset="0.328" stop-color="#ff543f"/>
+      <stop offset="0.348" stop-color="#fc5245"/>
+      <stop offset="0.504" stop-color="#e64771"/>
+      <stop offset="0.643" stop-color="#d53e91"/>
+      <stop offset="0.761" stop-color="#cc39a4"/>
+      <stop offset="0.841" stop-color="#c837ab"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.161" cy="-0.012" r="0.828" gradientTransform="translate(0 -0.004) scale(1 0.666)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4168c9"/>
+      <stop offset="0.999" stop-color="#4168c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_534" data-name="Mask Group 534" transform="translate(-752 -1028)" clip-path="url(#clip-path)">
+    <g id="icons8_instagram_1" transform="translate(749.34 1025.339)">
+      <path id="Path_149" data-name="Path 149" d="M15.111,18.652l-8.884.008a3.564,3.564,0,0,1-3.557-3.55L2.661,6.226a3.564,3.564,0,0,1,3.55-3.557L15.1,2.661a3.564,3.564,0,0,1,3.557,3.55l.008,8.884A3.564,3.564,0,0,1,15.111,18.652Z" fill="url(#radial-gradient)"/>
+      <path id="Path_150" data-name="Path 150" d="M15.111,18.652l-8.884.008a3.564,3.564,0,0,1-3.557-3.55L2.661,6.226a3.564,3.564,0,0,1,3.55-3.557L15.1,2.661a3.564,3.564,0,0,1,3.557,3.55l.008,8.884A3.564,3.564,0,0,1,15.111,18.652Z" fill="url(#radial-gradient-2)"/>
+      <path id="Path_151" data-name="Path 151" d="M10.661,13.771a3.109,3.109,0,1,1,3.109-3.109A3.113,3.113,0,0,1,10.661,13.771Zm0-5.331a2.221,2.221,0,1,0,2.221,2.221A2.224,2.224,0,0,0,10.661,8.44Z" fill="#fff"/>
+      <circle id="Ellipse_121" data-name="Ellipse 121" cx="0.666" cy="0.666" r="0.666" transform="translate(13.326 6.663)" fill="#fff"/>
+      <path id="Path_152" data-name="Path 152" d="M13.326,16.436H8a3.113,3.113,0,0,1-3.109-3.109V8A3.113,3.113,0,0,1,8,4.886h5.331A3.113,3.113,0,0,1,16.436,8v5.331A3.113,3.113,0,0,1,13.326,16.436ZM8,5.775A2.224,2.224,0,0,0,5.775,8v5.331A2.224,2.224,0,0,0,8,15.547h5.331a2.224,2.224,0,0,0,2.221-2.221V8a2.224,2.224,0,0,0-2.221-2.221Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

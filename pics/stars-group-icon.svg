@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="42" viewBox="0 0 170 42">
+  <defs>
+    <filter id="Polygon_37" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_40" x="64" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_38" x="32" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_39" x="96" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_41" x="128" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3458" data-name="Group 3458" transform="translate(-651 -1265)">
+    <g transform="matrix(1, 0, 0, 1, 651, 1265)" filter="url(#Polygon_37)">
+      <path id="Polygon_37-2" data-name="Polygon 37" d="M12,0l2.88,9.1L24,9.167l-7.34,5.692L19.416,24,12,18.419,4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(9 6)" fill="#f1cd51"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 651, 1265)" filter="url(#Polygon_40)">
+      <path id="Polygon_40-2" data-name="Polygon 40" d="M12,0l2.88,9.1L24,9.167l-7.34,5.692L19.416,24,12,18.419,4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(73 6)" fill="#f1cd51"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 651, 1265)" filter="url(#Polygon_38)">
+      <path id="Polygon_38-2" data-name="Polygon 38" d="M12,0l2.88,9.1L24,9.167l-7.34,5.692L19.416,24,12,18.419,4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(41 6)" fill="#f1cd51"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 651, 1265)" filter="url(#Polygon_39)">
+      <path id="Polygon_39-2" data-name="Polygon 39" d="M12,0l2.88,9.1L24,9.167l-7.34,5.692L19.416,24,12,18.419,4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(105 6)" fill="#f1cd51"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 651, 1265)" filter="url(#Polygon_41)">
+      <path id="Polygon_41-2" data-name="Polygon 41" d="M12,0l2.88,9.1L24,9.167l-7.34,5.692L19.416,24,12,18.419,4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(137 6)" fill="#8a8f93"/>
+    </g>
+    <path id="Path_155" data-name="Path 155" d="M12,0V18.419L4.584,24,7.34,14.859,0,9.167,9.12,9.1Z" transform="translate(788 1271)" fill="#f1cd51"/>
+  </g>
+</svg>

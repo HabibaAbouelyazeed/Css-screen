@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18402" data-name="Rectangle 18402" width="16" height="16" rx="8" fill="#fff"/>
+    </clipPath>
+    <filter id="icons8_chevron_left" x="-5.333" y="-6" width="26.667" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1b2d49" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_369" data-name="Mask Group 369" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#icons8_chevron_left)">
+      <path id="icons8_chevron_left-2" data-name="icons8_chevron_left" d="M11.333,2h1.333a.667.667,0,0,1,.516,1.089L7.528,10l5.655,6.911A.666.666,0,0,1,12.667,18H11.333a.667.667,0,0,1-.516-.245l-6-7.333a.668.668,0,0,1,0-.845l6-7.333A.669.669,0,0,1,11.333,2Z" transform="translate(-1 -2)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

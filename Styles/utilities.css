@@ -19,13 +19,15 @@
     display: flex;
 }
 
+.u-H5-flex-col{
+    flex-direction: column;
+}
+
 .u-H5-align-center{
     align-items: center;
 }
 
-.u-H5-flex-col{
-    flex-direction: column;
-}
+
 
 .u-H5-align-left{
     align-self: flex-start;

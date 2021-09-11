@@ -1,3 +1,8 @@
+.p-H5-footer{
+    background-image: url(../pics/footer-image.jfif);
+    opacity: 0.9;
+}
+
 .p-H5-house1{
     background-image: url(../pics/modern-house1.jpg);
 }
@@ -53,4 +58,8 @@
 
 .p-H5-user8{
     background-image: url(../pics/user8.jfif);
+}
+
+.p-H5-user9{
+    background-image: url(../pics/user9.jfif);
 }

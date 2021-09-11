@@ -48,6 +48,10 @@
     color: #1C2D49;
 }
 
+.c-H5-c12{
+    color: #EEF0FC;
+}
+
 
 
 /* Colors ==END */
@@ -156,6 +160,10 @@
 
 .c-H5-bg-c24{
     background-color: #9C9DFE;
+}
+
+.c-H5-bg-c25{
+    background-image: linear-gradient(to right,#F3F3FF,#E9F7FE);
 }
 /* Background Colors ==END */
 

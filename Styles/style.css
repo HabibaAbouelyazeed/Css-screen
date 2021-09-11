@@ -11,13 +11,15 @@ div{
 .H5-header { grid-area: header; }
 .H5-main-container { grid-area: main; }
 .H5-aside-menu {grid-area: aside;}
+.H5-footer {grid-area: footer;}
 
 .H5-grid-container {
     display: grid;
     grid-template-areas:
       'header header header'
       'aside main main'
-      'aside main main';
+      'aside main main'
+      'footer footer footer';
   }
 
 
@@ -43,14 +45,26 @@ div{
 }
 
 .H5-main-container{
-    height: 100vh;
+    /* height: 100vh; */
     padding: 24px 246px 24px 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     row-gap: 24px;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.H5-footer{
+    padding: 56px 56px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 534px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Main grid containers ==END */
@@ -243,7 +257,7 @@ div{
     padding: 0px 32px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .H5-message-icon{
@@ -354,7 +368,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .H5-overview-container-main{
@@ -363,7 +377,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:rgb(235, 191, 177);
+    /* background-color:rgb(235, 191, 177); */
 }
 
 .H5-tags-container-main{
@@ -425,7 +439,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:rgb(235, 191, 177);
+    /* background-color:rgb(235, 191, 177); */
 }
 
 .H5-tags-container-specialties{
@@ -449,7 +463,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:rgb(216, 191, 184);
+    /* background-color:rgb(216, 191, 184); */
 }
 
 .H5-tags-container-main-contacts{
@@ -541,7 +555,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:rgb(233, 199, 190);
+    /* background-color:rgb(233, 199, 190); */
 }
 
 .H5-rate-holder-main{
@@ -550,7 +564,7 @@ div{
     margin-left: 21px;
     display: flex;
     justify-content: space-between;
-    background-color: seashell;
+    /* background-color: seashell; */
 }
 
 .H5-rate-tag1-holder-main{
@@ -561,7 +575,7 @@ div{
     align-items: center;
 
 
-    background-color: rgb(203, 241, 212);
+    /* background-color: rgb(203, 241, 212); */
 
 }
 
@@ -582,7 +596,7 @@ div{
     justify-content: space-between;
 
 
-    background-color: rgb(208, 235, 182);
+    /* background-color: rgb(208, 235, 182); */
 }
 
 .H5-rates-tag{
@@ -639,7 +653,7 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:rgb(236, 220, 216);
+    /* background-color:rgb(236, 220, 216); */
 }
 
 .H5-properties-bar{
@@ -936,12 +950,13 @@ div{
 /* Agents Section */
 
 .H5-agents-container-main{
-    width: 1010px;
+    width: 1065px;
     height: 487px;
+    margin-left: 55px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .H5-agent-cards-container{
@@ -953,14 +968,35 @@ div{
     gap: 24px;
 }
 
-.H5-agenct-card-main{
+.H5-agent-card-main{
     width: 339px;
     height: 341px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-color: tan;
+    position: relative;
+}
+
+.H5-agent-photo-container{
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.H5-agent-photo{
+    /* width: 160px;
+    height: 160px; */
+    padding: 78px;
+    border: 2px solid #EFF8FE;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
 }
 
 .H5-agency-card-lower-div{
@@ -969,7 +1005,197 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: flex-end;
     box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
 }
+
+.H5-agent-tags-holder{
+    width: 122px;
+    height: 24px;
+    /* margin-top: 92px; */
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.H5-agent-rate-tag{
+    width: 40px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.08);
+}
+
+.H5-star-icon-2{
+    padding: 4px;
+    margin-left: 4px;
+    background-image: url(../pics/star-icon-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.H5-agent-exellenct-tag{
+    width: 74px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.08);
+}
+
+.H5-verified-icon{
+    padding: 4px;
+    margin-left: 4px;
+    background-image: url(../pics/verified-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.H5-agents-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
 /* MainMenu items ==END */
+
+
+/* Footer items ==START */
+.H5-newsletter-tag{
+    width: 192px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.H5-enter-email-holder{
+    width: 702px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.H5-enter-email-tag{
+    width: 158px;
+    height: 48px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.H5-email-icon{
+    padding: 12px;
+    margin-right: 8px;
+    background-image: url(../pics/email-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.H5-submit-button{
+    width: 128px;
+    height: 40px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer items ==END */
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px)  {
+    .H5-grid-container {
+        grid-template-areas:
+          'header'
+          'aside'
+          'main'
+          'main'
+          'footer';
+    }
+
+    /* Header */
+
+    .H5-header {
+        flex-wrap: wrap;
+    }
+
+    .H5-search-bar {
+        max-width: 277px;
+    }
+
+    /* Aside menu */
+
+    .H5-tags-container{
+        flex-direction: row;
+    }
+
+
+
+    /* Main menu */
+    .H5-house-tag {
+        width: 339px;
+        height: 288px;
+    }
+
+    .H5-section-splitter {
+        width: 339px;
+    }
+    
+    .H5-about-container-main {
+        width: 326px;
+        height: 192px;
+        flex-wrap: wrap;
+    }
+
+    .H5-overview-container-main {
+        width: 326px;
+    }
+
+    .H5-tags-container-specialties {
+        width: 326px;
+        flex-wrap: wrap;
+    }
+
+    .H5-contacts-container-main {
+        width: 326px;
+        flex-wrap: wrap;
+    }
+    
+    .H5-rate-holder-main {
+        width: 336px;
+        flex-direction: column;
+    }
+
+    .H5-properties-bar {
+        width: 336px;
+        overflow: hidden;
+    }
+
+    .H5-agency-cards-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .H5-agent-cards-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /* Footer */
+
+    .H5-footer {
+        padding: 32px 18px;
+        flex-direction: column;
+        gap: 17px;
+    }
+}

@@ -33,6 +33,9 @@
 
 
 /* Size ==Start */
+.f-H5-8{
+    font-size: 8px;
+}
 
 .f-H5-10{
     font-size: 10px;
@@ -52,6 +55,10 @@
 
 .f-H5-20{
     font-size: 20px;
+}
+
+.f-H5-30{
+    font-size: 30px;
 }
 
 .f-H5-32{
